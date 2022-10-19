@@ -1,0 +1,73 @@
+/* CSS Document */
+html, body
+{
+margin: 0;
+padding: 0;
+background-color: #000000;
+background-image: url('assets/indexBackground.jpg');
+color: white;
+height: 100%;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+}
+.logo
+{
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+a
+{
+  color: white;
+  text-decoration: none;
+  transition: text-decoration 0.25s;
+}
+.vcenter
+{
+  border-collapse: collapse;
+  margin: 1;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.widthLimiter
+{
+  width: 380px;
+  max-width: 100%;
+  margin: auto;
+  vertical-align: middle;
+}
+.treeElement
+{
+  border: 2px white solid;
+  padding: 0.5em;
+  text-align: center;
+  margin: 0.5em;
+  transition: background 0.25s;
+  max-width: 95vh;
+}
+.treeElement:hover
+{
+  background: rgba(255, 255, 255, 0.25);
+}
+.treeElement:active
+{
+  background: rgba(255, 255, 255, 0.125);
+}
+.treeImage
+{
+  max-height: 1em;
+  vertical-align: auto;
+}
+.subtitle
+{
+  font-size: 9pt;
+}
+.subtitle a:hover
+{
+text-decoration: underline;
+}
+.subtitle a:active
+{
+  color: #c0c0c0
+}
